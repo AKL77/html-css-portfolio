@@ -1,0 +1,217 @@
+#header header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #A6B1E1;
+  border-bottom: 7px solid #424874 !important;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+
+/* Estilo da palavra "Portfolio" */
+#header .fs-4 {
+  font-size: 3rem !important; /* Aumenta o tamanho da fonte */
+  font-family: 'Lato', serif !important; /* Altere para sua fonte preferida */
+  color: #424874 !important; /* Deixa o texto preto */
+  font-weight: bold;  
+  margin-left: 80px !important; /* Empurra para a direita */
+}
+
+/* Estilo das opções de navegação */
+#header .nav {
+  display: flex;
+  gap: 1.5rem; /* Espaçamento entre os itens */
+  margin-right: 80px; /* Move os itens para a esquerda */
+}
+
+#header .nav-link {
+  font-size: 1.25rem;
+  font-family: 'Verdana', sans-serif;
+  color: #424874;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#header .nav-link:hover { 
+  color: #F4EEFF !important; /* Muda a cor para preto ao passar o mouse */ 
+}
+
+
+#title h2 {
+  font-size: 4.5rem; /* Aumenta o tamanho do texto */
+  font-family: 'Lato', serif; /* Altere para sua fonte preferida */
+  color: #424874 !important; /* Cor do texto */
+  margin-left: 100px;
+}
+
+#title p {
+  font-size: 2rem; /* Tamanho maior para o texto */
+  font-family: 'Verdana', sans-serif; /* Altere para sua fonte preferida */
+  color: #424874;
+  background-color: #DCD6F7; 
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 25px; /* Bordas arredondadas */
+  display: inline-block; /* Tamanho ajustado ao conteúdo */
+  margin-left: 100px;
+}
+
+#title { 
+  background-color: #A6B1E1; 
+}
+
+#about {
+  background-color: #DCD6F7;
+}
+
+#title img.d-block {
+  border: 5px solid #424874; /* Cor e largura da borda */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Sombra para destacar */
+  transition: transform 0.3s ease; /* Efeito de transição */
+  margin-bottom: 40px
+}
+
+#title img.d-block:hover {
+  transform: scale(1.05); /* Aumenta a foto levemente ao passar o mouse */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35); /* Aumenta a sombra ao passar o mouse */
+}
+
+
+#about {
+  padding: 2rem;
+  background-color: #DCD6F7;
+}
+
+#about h2, #about h3, #about p {
+  color: #424874;
+}
+
+#about h2 {
+  font-size: 1.5rem; /* Aumenta o tamanho do texto */
+  font-family: 'Verdana', sans-serif; /* Altere para sua fonte preferida */
+  color: #424874 !important; /* Cor do texto */
+  margin-left: 60px;
+}
+
+#about h3 {
+  font-size: 4rem; /* Aumenta o tamanho do texto */
+  font-family: 'Lato', serif; /* Altere para sua fonte preferida */
+  color: #424874 !important; /* Cor do texto */
+}
+
+#about p {
+  font-size: 1.5rem; /* Tamanho maior para o texto */
+  font-family: 'Verdana', sans-serif; /* Altere para sua fonte preferida */
+  color: #424874;
+}
+
+/* Image container styling */
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.image-container .img-overlay {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.image-container .img-main {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  border: 5px solid #424874;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Sombra para destacar */
+  transition: transform 0.3s ease; /* Efeito de transição */
+  margin-left: 100px;
+}
+
+.image-container .img-main:hover {
+  transform: scale(1.05); /* Aumenta a foto levemente ao passar o mouse */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35); /* Aumenta a sombra ao passar o mouse */
+}
+
+#skills {
+  background-color: #F4EEFF;
+}
+
+.icon {
+  width: 50px; /* Tamanho do ícone */
+  height: 50px; /* Altura do ícone */
+}
+
+/* Estilo para os títulos das habilidades */
+.skill-title {
+  font-size: 2rem; /* Tamanho do texto */
+  font-family: 'Arial', sans-serif; /* Fonte desejada */
+  color: #424874; /* Cor do texto */
+  margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+/* Estilo para as descrições das habilidades */
+.skill-description {
+  font-size: 1.15rem; /* Tamanho do texto */
+  font-family: 'Verdana', sans-serif; /* Fonte desejada */
+  color: #424874; /* Cor do texto */
+}
+
+.my-skills {
+  font-size: 4rem; /* Tamanho do texto */
+  font-family: 'Lato', serif;
+  color: #424874; /* Cor do texto */
+  padding-top: 1.5rem;
+}
+
+#hobbies {
+  background-color: #DCD6F7;
+}
+
+.hobby {
+  text-align: center; /* Centraliza o texto */
+  font-size: 4rem; /* Tamanho do texto */
+  font-family: 'Lato', serif;
+  color: #424874; /* Cor do texto */
+  margin-bottom: 1.5rem; /* Espaço abaixo do título */
+  padding-top: 1.5rem;
+}
+
+.card {
+  font-size: 1rem; /* Tamanho do texto */
+  font-family: 'Verdana', sans-serif; /* Fonte desejada */
+  color: white; /* Cor do texto */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cardtext {
+  color: white; /* Cor do texto */
+  font-size: 2rem; /* Tamanho do texto */
+  font-family: 'Verdana', sans-serif; /* Fonte desejada */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto mais forte */
+  text-align: center; /* Centraliza o texto */
+  padding: 1rem; /* Adiciona espaço ao redor do texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhorar o contraste */
+  border-radius: 10px; /* Bordas arredondadas para o fundo */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+#footer {
+  background-color: #DCD6F7;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-family: 'Verdana', sans-serif;
+  color: #424874;
+}
+
